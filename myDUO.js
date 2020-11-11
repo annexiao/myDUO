@@ -534,10 +534,10 @@ function keyboardShortcuts() {
 function hideShowKey() {
     const list = document.querySelectorAll('[data-test="word-bank"] button');
 
-    const listOfCode = ["KeyQ", "KeyW", "KeyE", "KeyR", "KeyT", "KeyY", "KeyU",
-                        "KeyI", "KeyO", "KeyP", "KeyA", "KeyS", "KeyD", "KeyF",
-                        "KeyG", "KeyH", "KeyJ", "KeyK", "KeyL", "KeyZ", "KeyX",
-                        "KeyC", "KeyV", "KeyB", "KeyN", "KeyM"];
+    const listOfCode = ["Key1", "Key2", "Key3", "Key4", "Key5", "Key6", "Key7",
+                        "Key8", "Key9", "Key0", "KeyA", "KeyB", "KeyC", "KeyD",
+                        "KeyE", "KeyF", "KeyG", "KeyH", "KeyI", "KeyJ", "KeyK",
+                        "KeyL", "KeyM", "KeyN", "KeyO", "KeyP"];
 
     if (window.innerWidth>700 && window.innerWidth>window.innerHeight) {
         for (let i=0; i<list.length; i++) {
